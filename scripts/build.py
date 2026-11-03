@@ -29,7 +29,7 @@ def media(paper):
     if m['type'] == 'image':
         return f'''<button class="paper-preview image-preview" type="button" data-image="{esc(m['full'])}" data-caption="{title}" aria-label="Enlarge method diagram: {title}"><img src="{esc(m['src'])}" alt="{esc(m['alt'])}" loading="lazy" width="{m['width']}" height="{m['height']}"><span class="preview-caption">Method overview <span aria-hidden="true">↗</span></span></button>'''
     if m['type'] == 'video':
-        destination = next((x['url'] for x in paper['links'] if x['label'] == 'Project'), None)
+        destination = next((x['url'] for x in paper['links'] if x['label'] in {'Project', 'Project Page'}), None)
         video = f'''<video muted loop playsinline preload="none" data-src="{esc(m['src'])}" poster="{esc(m['poster'])}" aria-label="{esc(m.get('alt', paper['title'] + ' video preview'))}" width="{m.get('width', 640)}" height="{m.get('height', 640)}"></video>'''
         if m.get('panelLabels'):
             labels = ''.join(f'<span class="video-panel-label video-panel-label-{position}">{esc(m["panelLabels"][position])}</span>' for position in ('top', 'bottom'))

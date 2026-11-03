@@ -128,12 +128,12 @@
       "bibliography": "Proceedings of the 43rd International Conference on Machine Learning, PMLR 306:114962–114986, 2026",
       "links": [
         {
-          "label": "Paper",
-          "url": "https://proceedings.mlr.press/v306/song26u.html"
+          "label": "Project Page",
+          "url": "https://chuanxinsong.github.io/pvdepth-project-page/"
         },
         {
-          "label": "Project",
-          "url": "https://chuanxinsong.github.io/pvdepth-project-page/"
+          "label": "Paper",
+          "url": "https://proceedings.mlr.press/v306/song26u.html"
         },
         {
           "label": "Code",
