@@ -1,0 +1,405 @@
+{
+  "updated": "2026-11-03",
+  "updatedLabel": "November 2026",
+  "profile": {
+    "name": "Chuanxin Song",
+    "nameZh": "宋传鑫",
+    "photo": "assets/images/portrait-spatial-intelligence-preview.webp",
+    "scholar": "https://scholar.google.com/citations?user=NhZxUX0AAAAJ",
+    "bio": [
+      "Greetings! I am a CS Ph.D. candidate at Peking University, advised by Prof. Peixi Peng. My research interests span scene generation and understanding, with a recent focus on controllable generation and a growing interest in embodied applications of generative models.",
+      "Before joining Peking University, I had a pleasant experience as a Research Assistant at The Chinese University of Hong Kong, advised by Prof. Yunhui Liu. I received my master's degree from Shandong University in 2024, where my research focused on scene understanding under the supervision of Prof. Xin Ma. I received my bachelor's degree from the University of Jinan and participated in several robotics competitions at the 1206 Lab, where it all began."
+    ],
+    "links": [
+      {
+        "label": "Email",
+        "url": "mailto:chuanxinsong@foxmail.com"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=NhZxUX0AAAAJ"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/ChuanxinSong"
+      }
+    ],
+    "photoPatch": "assets/images/portrait-spatial-watermark-repair-preview.webp",
+    "bioLinks": [
+      {
+        "label": "Peixi Peng",
+        "url": "https://www.ece.pku.edu.cn/info/1046/2801.htm"
+      },
+      {
+        "label": "Yunhui Liu",
+        "url": "https://www4.mae.cuhk.edu.hk/peoples/liu-yun-hui"
+      },
+      {
+        "label": "Xin Ma",
+        "url": "https://faculty.sdu.edu.cn/~aamqQz/zh_CN/index.htm"
+      }
+    ],
+    "recentInterests": [
+      "Scene generation",
+      "Panoramic vision"
+    ],
+    "photoCaption": "At ChinaSI 2025",
+    "photoWidth": 640,
+    "photoHeight": 633,
+    "photoPatchWidth": 640,
+    "photoPatchHeight": 632
+  },
+  "publicationGroups": [
+    {
+      "id": "panoramic",
+      "title": "Panoramic Video Modeling for 3D Scene Generation",
+      "trajectory": [
+        {
+          "from": "Video",
+          "to": "3D",
+          "paper": "PVDepth",
+          "id": "pvdepth"
+        },
+        {
+          "from": "3D",
+          "to": "Video",
+          "paper": "PVWander",
+          "id": "pvwander",
+          "loop": true
+        }
+      ]
+    },
+    {
+      "id": "semantic",
+      "title": "Earlier work on scene understanding during my master’s studies"
+    }
+  ],
+  "publications": [
+    {
+      "id": "pvwander",
+      "title": "PVWander: 3D Memory-guided Panoramic Video Wandering with Path-Facing Canonicalization",
+      "authors": [
+        "Chuanxin Song",
+        "Xiaodong Wang",
+        "Shijie Chen",
+        "Junliang Xie",
+        "Zhanmi Zhong",
+        "Suiying Wu",
+        "Peixi Peng"
+      ],
+      "venue": "Under Review",
+      "year": 2027,
+      "status": "under-review",
+      "links": [],
+      "verification": "Title, status, and full author order supplied by user. User-provided hero teaser added on 2026-10-31. No public paper or project URL verified.",
+      "group": "panoramic",
+      "short": "PVWander",
+      "media": {
+        "type": "video",
+        "src": "assets/video/pvwander-preview.mp4?v=crop904",
+        "poster": "assets/video/pvwander-preview.jpg?v=crop904",
+        "full": "assets/video/pvwander-full.mp4",
+        "width": 640,
+        "height": 642,
+        "compact": true,
+        "alt": "PVWander point-cloud projection and generated panoramic video",
+        "caption": "3D memory → panoramic video · 4× speed"
+      },
+      "summary": "PVWander enables long-horizon panoramic video wandering with an evolving 3D memory, Path-Facing canonicalization, and Timestep-aware memory gating for improved consistency and robustness.",
+      "correspondingAuthors": [
+        "Peixi Peng"
+      ],
+      "focus": "3D → Video → 3D",
+      "focusLoop": {
+        "from": "3D",
+        "to": "Video"
+      }
+    },
+    {
+      "id": "pvdepth",
+      "title": "PVDepth: Panoramic Video Depth Estimation via Geometry-Aware Spatiotemporal Adaptation",
+      "authors": [
+        "Chuanxin Song",
+        "Peixi Peng"
+      ],
+      "venue": "ICML 2026 · CCF A",
+      "year": 2026,
+      "date": "2026-07",
+      "bibliography": "Proceedings of the 43rd International Conference on Machine Learning, PMLR 306:114962–114986, 2026",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://proceedings.mlr.press/v306/song26u.html"
+        },
+        {
+          "label": "Project",
+          "url": "https://chuanxinsong.github.io/pvdepth-project-page/"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/ChuanxinSong/PVDepth"
+        },
+        {
+          "label": "Dataset",
+          "url": "https://huggingface.co/datasets/Soon122/PanoCARLA"
+        }
+      ],
+      "sources": [
+        "https://proceedings.mlr.press/v306/song26u.html",
+        "https://github.com/ChuanxinSong/PVDepth"
+      ],
+      "group": "panoramic",
+      "short": "PVDepth",
+      "media": {
+        "type": "video",
+        "src": "assets/video/pvdepth-preview.mp4?v=200033",
+        "poster": "assets/video/pvdepth-preview.jpg?v=200033",
+        "panelLabels": {
+          "top": "INPUT VIDEO",
+          "bottom": "GENERATED DEPTH"
+        },
+        "compact": true,
+        "alt": "Panoramic RGB video and predicted depth of kitesurfing among icebergs",
+        "caption": "RGB / Depth · Real-world video"
+      },
+      "summary": "Generative Panoramic video depth estimation with a large-scale RGB-D dataset and Geometry-aware spatiotemporal adaptation",
+      "correspondingAuthors": [
+        "Peixi Peng"
+      ],
+      "focus": "Video → Depth"
+    },
+    {
+      "id": "similarity-prototype",
+      "title": "Semantic-embedded similarity prototype for scene recognition",
+      "authors": [
+        "Chuanxin Song",
+        "Hanbo Wu",
+        "Xin Ma",
+        "Yibin Li"
+      ],
+      "venue": "Pattern Recognition, 2024 · SCI Q1 Top",
+      "year": 2024,
+      "date": "2024-11",
+      "bibliography": "Pattern Recognition 155:110725, 2024",
+      "doi": "10.1016/j.patcog.2024.110725",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1016/j.patcog.2024.110725"
+        }
+      ],
+      "sources": [
+        "https://www.sciencedirect.com/science/article/abs/pii/S003132032400476X",
+        "https://github.com/ChuanxinSong/SimilarityPrototype/blob/main/README.md",
+        "https://arxiv.org/abs/2308.05896"
+      ],
+      "group": "semantic",
+      "short": "similarity-prototype",
+      "media": {
+        "type": "image",
+        "src": "assets/images/method-ssp.webp?v=3",
+        "full": "assets/images/method-ssp.png?v=3",
+        "alt": "Construction of the semantic-embedded similarity prototype, from the original English paper",
+        "width": 1750,
+        "height": 945
+      },
+      "summary": "Object semantics are encoded into an inter-class similarity prototype to guide training, improving scene recognition without extra inference cost.",
+      "correspondingAuthors": [
+        "Xin Ma"
+      ],
+      "focus": "Efficiency"
+    },
+    {
+      "id": "dgn",
+      "title": "Inter-object discriminative graph modeling for indoor scene recognition",
+      "authors": [
+        "Chuanxin Song",
+        "Hanbo Wu",
+        "Xin Ma"
+      ],
+      "venue": "Knowledge-Based Systems, 2024 · SCI Q1 Top",
+      "year": 2024,
+      "date": "2024-10-25",
+      "bibliography": "Knowledge-Based Systems 302:112371, 2024",
+      "doi": "10.1016/j.knosys.2024.112371",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1016/j.knosys.2024.112371"
+        }
+      ],
+      "sources": [
+        "https://www.sciencedirect.com/science/article/pii/S0950705124010050",
+        "https://arxiv.org/abs/2311.05919"
+      ],
+      "verification": "No public code repository was verified.",
+      "group": "semantic",
+      "short": "dgn",
+      "media": {
+        "type": "image",
+        "src": "assets/images/method-iodg.webp?v=3",
+        "full": "assets/images/method-iodg.png?v=3",
+        "alt": "Inter-object discriminative graph modeling architecture",
+        "width": 1755,
+        "height": 755
+      },
+      "summary": "Inter-object discriminative priors enrich scene representations through graph modeling.",
+      "correspondingAuthors": [
+        "Xin Ma"
+      ],
+      "focus": "Interpretability"
+    },
+    {
+      "id": "spaconet",
+      "title": "Semantic-guided modeling of spatial relation and object co-occurrence for indoor scene recognition",
+      "authors": [
+        "Chuanxin Song",
+        "Hanbo Wu",
+        "Xin Ma"
+      ],
+      "venue": "Expert Systems with Applications, 2025 · SCI Q1 Top",
+      "year": 2025,
+      "date": "2025-04-25",
+      "bibliography": "Expert Systems with Applications 270:126415, 2025",
+      "doi": "10.1016/j.eswa.2025.126415",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1016/j.eswa.2025.126415"
+        }
+      ],
+      "sources": [
+        "https://www.sciencedirect.com/science/article/abs/pii/S0957417425000375",
+        "https://arxiv.org/abs/2305.12661"
+      ],
+      "verification": "No public code repository was verified.",
+      "group": "semantic",
+      "short": "spaconet",
+      "media": {
+        "type": "image",
+        "src": "assets/images/method-spaconet.webp?v=3",
+        "full": "assets/images/method-spaconet.png?v=3",
+        "alt": "SpaCoNet architecture modeling semantic spatial relations and object co-occurrence",
+        "width": 1280,
+        "height": 474
+      },
+      "summary": "Journal extension of SRRM, modeling spatial relations and object co-occurrence for scene recognition.",
+      "correspondingAuthors": [
+        "Xin Ma"
+      ],
+      "focus": "Object Co-occurrence"
+    },
+    {
+      "id": "srrm",
+      "title": "SRRM: Semantic Region Relation Model for Indoor Scene Recognition",
+      "authors": [
+        "Chuanxin Song",
+        "Xin Ma"
+      ],
+      "venue": "IJCNN 2023 · Oral · Session Chair",
+      "year": 2023,
+      "date": "2023-06",
+      "doi": "10.1109/IJCNN54540.2023.10191605",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1109/IJCNN54540.2023.10191605"
+        }
+      ],
+      "sources": [
+        "https://ieeexplore.ieee.org/document/10191605",
+        "https://arxiv.org/abs/2305.08540"
+      ],
+      "verification": "IEEE returned an anti-bot interstitial. Author-submitted arXiv record confirms author order, IJCNN 2023 and the related publisher DOI. Despite the old arXiv code link, the repository is currently private, so omit Code on the public homepage.",
+      "group": "semantic",
+      "short": "srrm",
+      "media": {
+        "type": "image",
+        "src": "assets/images/method-srrm.webp?v=3",
+        "full": "assets/images/method-srrm.png?v=3",
+        "alt": "Semantic region relation model architecture",
+        "width": 1400,
+        "height": 643
+      },
+      "summary": "Semantic region relations for indoor scene recognition.",
+      "correspondingAuthors": [
+        "Xin Ma"
+      ],
+      "focus": "Spatial Relations"
+    }
+  ],
+  "thesis": {
+    "title": "Study on Semantic-guided Scene Recognition",
+    "titleZh": "基于语义引导的场景识别算法研究",
+    "cover": "assets/images/thesis-cover.webp",
+    "pdf": "assets/documents/chuanxin-song-masters-thesis.pdf",
+    "award": "Shandong Provincial Outstanding Master’s Thesis",
+    "description": "Exploring semantic guidance for scene recognition through spatial relations, object co-occurrence, discriminative graphs, and similarity prototypes."
+  },
+  "honors": [
+    {
+      "year": 2026,
+      "title": "Outstanding Student, Peking University",
+      "original": "北京大学三好学生",
+      "source": "CV page 1"
+    },
+    {
+      "title": "Shandong Provincial Outstanding Master's Thesis",
+      "source": "Latest user requirements",
+      "verification_note": "User confirmed 2025 for the Selected Honors & Awards list.",
+      "year": 2025
+    },
+    {
+      "year": 2021,
+      "title": "Outstanding Graduate of Shandong Province",
+      "original": "山东省优秀毕业生",
+      "source": "CV page 1"
+    },
+    {
+      "year": 2020,
+      "title": "Outstanding Student of Shandong Province",
+      "original": "山东省优秀学生",
+      "source": "CV page 1"
+    }
+  ],
+  "academicService": [
+    {
+      "role": "Journal Reviewer",
+      "venues": "IJCV, Pattern Recognition, etc."
+    },
+    {
+      "role": "Conference Reviewer",
+      "venues": "ICML, ICLR, etc."
+    }
+  ],
+  "competitionAwards": [
+    {
+      "title": "China Robot Competition — Service Robotics Special Competition",
+      "category": "Service Robotics",
+      "achievement": "First Prize · Perfect Score · Team Leader",
+      "image": "assets/images/competition-robotics.jpg",
+      "alt": "Service robot built for the service robotics special competition of the China Robot Competition",
+      "video": "assets/video/competition-robotics.mp4",
+      "videoLabel": "Watch video · 1:00 · 4× speed",
+      "year": 2019,
+      "preview": "assets/images/competition-robotics-preview.webp",
+      "previewWidth": 480,
+      "previewHeight": 640,
+      "originalTitle": "中国机器人大赛服务机器人专项赛"
+    },
+    {
+      "title": "China Graduate Electronics Design Contest",
+      "category": "North China Region",
+      "achievement": "First Prize · Team Leader",
+      "image": "assets/images/competition-electronics.jpg",
+      "alt": "Robot prototype for the China Graduate Electronics Design Contest",
+      "video": "assets/video/competition-electronics.mp4",
+      "videoLabel": "Watch video · 1:12",
+      "year": 2022,
+      "preview": "assets/images/competition-electronics-preview.webp",
+      "previewWidth": 480,
+      "previewHeight": 570
+    }
+  ],
+  "misc": "I recently got a Fujifilm X-M5 and plan to give photography a try. Wish me luck!"
+}

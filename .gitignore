@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.DS_Store
+dist/
+docs/
+assets/images/portrait-conference.jpg
+assets/images/portrait-qianfoshan.jpg
+assets/images/portrait-spatial-intelligence.jpg
+assets/images/portrait-spatial-watermark-repair.png
+assets/images/portrait.jpg
+assets/images/thesis-cover.png
