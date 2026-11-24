@@ -90,8 +90,13 @@
       "venue": "Under Review",
       "year": 2027,
       "status": "under-review",
-      "links": [],
-      "verification": "Title, status, and full author order supplied by user. User-provided hero teaser added on 2026-10-31. No public paper or project URL verified.",
+      "links": [
+        {
+          "label": "Project Page",
+          "url": "https://chuanxinsong.github.io/pvwander-project-page"
+        }
+      ],
+      "verification": "Title, status, and full author order supplied by user. User-provided hero teaser added on 2026-10-31. Project page URL supplied by user on 2026-11-24. No public paper URL verified.",
       "group": "panoramic",
       "short": "PVWander",
       "media": {
