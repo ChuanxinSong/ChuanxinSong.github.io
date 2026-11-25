@@ -94,9 +94,13 @@
         {
           "label": "Project Page",
           "url": "https://chuanxinsong.github.io/pvwander-project-page"
+        },
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2611.32443"
         }
       ],
-      "verification": "Title, status, and full author order supplied by user. User-provided hero teaser added on 2026-10-31. Project page URL supplied by user on 2026-11-24. No public paper URL verified.",
+      "verification": "Title, status, and full author order supplied by user. User-provided hero teaser added on 2026-10-31. Project page URL supplied by user on 2026-11-24. Paper arXiv URL supplied by user on 2026-11-25.",
       "group": "panoramic",
       "short": "PVWander",
       "media": {
