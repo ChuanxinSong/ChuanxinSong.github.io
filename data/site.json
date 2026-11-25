@@ -162,14 +162,14 @@
       "short": "PVDepth",
       "media": {
         "type": "video",
-        "src": "assets/video/pvdepth-preview.mp4?v=200033",
-        "poster": "assets/video/pvdepth-preview.jpg?v=200033",
+        "src": "assets/video/pvdepth-preview.mp4?v=walkway-200055",
+        "poster": "assets/video/pvdepth-preview.jpg?v=walkway-200055",
         "panelLabels": {
           "top": "INPUT VIDEO",
           "bottom": "GENERATED DEPTH"
         },
         "compact": true,
-        "alt": "Panoramic RGB video and predicted depth of kitesurfing among icebergs",
+        "alt": "Panoramic RGB video and predicted depth of the Walkway scene",
         "caption": "RGB / Depth · Real-world video"
       },
       "summary": "Generative Panoramic video depth estimation with a large-scale RGB-D dataset and Geometry-aware spatiotemporal adaptation",
